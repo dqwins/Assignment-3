@@ -21,6 +21,12 @@ body {
     background: #E6E3E9;
 }
 
+.content-area {
+    width: 80%;
+    margin: auto;
+    padding: 0 100px;
+}
+
 .pencil {
     position: absolute;
     top: 50%;
