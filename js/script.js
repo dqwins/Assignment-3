@@ -12,6 +12,10 @@ $("#pencil").on().click(function () {
 
 man.hide();
 
+$("#eyebrow3").on("click", function () {
+    man.fadeToggle();
+});
+
 
 //  $("#man-outline-01").on().click(function () {
 //     $(this).show();
