@@ -18,7 +18,7 @@ img {
 
 
 body {
-    background: #E6E3E9;
+    background: #dfdfdf;
 }
 
 .content-area {
@@ -35,19 +35,25 @@ body {
     width: 300px;
 }
 
-.cls-1 {
-    fill: #000000;
-}
+#Layer_1 .cls-1 {
+    fill: black;
+  }
 
-.cls-1,
-.cls-2 {
+  .cls-1, .cls-2 {
     stroke-width: 0px;
-}
+  }
 
-.cls-2 {
+  .cls-2 {
     fill: #231f20;
-}
+  }
 
 .disp {
     display: inline-block;
 }
+
+.cls-1 {
+    fill: white;
+    opacity: .11;
+    stroke-width: 0px;
+  }
+
