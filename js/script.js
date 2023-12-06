@@ -20,12 +20,22 @@ $("#Layer_1").on().click(function () {
 });
 
 $("#turn").on().click(function () {
-    $("#Layer_3").css("transform", "rotate(180deg)");
+    if ($("#Layer_3").css("transform") === "none") {
+        $("#Layer_3").css("transform", "rotate(180deg)");
+    } else {
+        $("#Layer_3").css("transform", "none");
+    }
     $("#Layer_3").css("transition", "all 1s");
 });
 
-//$("#Layer_2").css({"background": "url(images/background.svg)"})
-//$("selector").css({"background-image": "url(image)"});  
+
+//$("#Layer_2").css({"background": "url(images/background.svg)"});
+$("#head").on("click", function () {
+    $("#Layer_2").show();
+    $("#Layer_2").css({"background": "url(images/background.svg)"});
+})
+
+//$("selector").css({"background": "url(image)"});  
 
 
 
