@@ -30,10 +30,14 @@ $("#turn").on().click(function () {
 
 
 //$("#Layer_2").css({"background": "url(images/background.svg)"});
-$("#head").on("click", function () {
-    $("#Layer_2").show();
-    $("#Layer_2").css({"background": "url(images/background.svg)"});
-})
+// $("#head").on("click", function () {
+//     $("#Layer_2").show();
+//     $("#Layer_2").css({"background": "url(images/background.svg)"});
+// })
+
+// $("#myElement").on("click", function() {
+//     $(this).css({"background": "url(images/background.jpg)"});
+//   });
 
 //$("selector").css({"background": "url(image)"});  
 
