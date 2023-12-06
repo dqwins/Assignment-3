@@ -4,6 +4,7 @@ console.log(x);
 
 
 $("#Layer_1").hide();
+$("#Layer_2").hide();
 $("#Layer_3").hide();
 
 $("#pencil").on().click(function () {
@@ -15,6 +16,7 @@ $("#pencil").on().click(function () {
 $("#Layer_1").on().click(function () {
     $("#Layer_3").show();
     $("#Layer_1").hide();
+    $("#Layer_2").show();
 });
 
 $("#turn").on().click(function () {
@@ -22,49 +24,53 @@ $("#turn").on().click(function () {
     $("#Layer_3").css("transition", "all 1s");
 });
 
+//$("#Layer_2").css({"background": "url(images/background.svg)"})
+
+//$("selector").css({"background-image": "url(image)"});  
+
 
 
 
 //Coloring Settings
 
 $("#eyedrow1").on("click", function () {
-    $("#eyedrow1 .cls-1").css("fill", "#231c07");
+    $("#eyedrow1 .cls-1").css("fill", "#564138");
 });
 
 $("#eyebrow2").on("click", function () {
-    $("#eyebrow2 .cls-1").css("fill", "#231c07");
+    $("#eyebrow2 .cls-1").css("fill", "#564138");
 });
 
 $("#eyebrow3").on("click", function () {
-    $("#eyebrow3 .cls-1").css("fill", "#231c07");
+    $("#eyebrow3 .cls-1").css("fill", "#564138");
 });
 
 $("#eyebrow4").on("click", function () {
-    $("#eyebrow4 .cls-1").css("fill", "#231c07");
+    $("#eyebrow4 .cls-1").css("fill", "#564138");
 });
 
 
 
 $("#tuff1").on("click", function () {
-    $("#tuff1 .cls-1").css("fill", "red");
+    $("#tuff1 .cls-1").css("fill", "#f6f5ae");
 });
-
+ 
 $("#tuff2").on("click", function () {
-    $("#tuff2 .cls-1").css("fill", "red");
+    $("#tuff2 .cls-1").css("fill", "#f6f5ae");
 });
 
 $("#tuff3").on("click", function () {
-    $("#tuff3 .cls-1").css("fill", "red");
+    $("#tuff3 .cls-1").css("fill", "#f6f5ae");
 });
 
 $("#tuff4").on("click", function () {
-    $("#tuff4 .cls-1").css("fill", "red");
+    $("#tuff4 .cls-1").css("fill", "#f6f5ae");
 });
 
 
 
 $("#head").on("click", function () {
-    $("#head .cls-1").css("fill", "pink");
+    $("#head .cls-1").css("fill", "#e49273");
 });
 
 
@@ -78,11 +84,11 @@ $("#righteye").on("click", function () {
 });
 
 $("#lefteye-pupil").on("click", function () {
-    $("#lefteye-pupil .cls-1").css("fill", "green");
+    $("#lefteye-pupil .cls-1").css("fill", "#2e86ab");
 });
 
 $("#righteye-pupil").on("click", function () {
-    $("#righteye-pupil .cls-1").css("fill", "green");
+    $("#righteye-pupil .cls-1").css("fill", "#2e86ab");
 });
 
 
