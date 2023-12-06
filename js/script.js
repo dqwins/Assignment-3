@@ -25,7 +25,6 @@ $("#turn").on().click(function () {
 });
 
 //$("#Layer_2").css({"background": "url(images/background.svg)"})
-
 //$("selector").css({"background-image": "url(image)"});  
 
 
