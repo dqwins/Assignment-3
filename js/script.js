@@ -8,7 +8,7 @@ $("#Layer_2").hide();
 $("#Layer_3").hide();
 
 $("#pencil").on().click(function () {
-    $("#pencil").css("transform", "translate(700px) rotate(-45deg)");
+    $("#pencil").css("transform", "translate(90%) rotate(-45deg)");
     $("#pencil").css("transition", "all 1s");
     $("#Layer_1").show();
 });
@@ -16,7 +16,7 @@ $("#pencil").on().click(function () {
 $("#Layer_1").on().click(function () {
     $("#Layer_3").show();
     $("#Layer_1").hide();
-    $("#Layer_2").show();
+    $(".background").css("background-image", "url(images/background.svg)");
 });
 
 $("#turn").on().click(function () {
@@ -27,19 +27,6 @@ $("#turn").on().click(function () {
     }
     $("#Layer_3").css("transition", "all 1s");
 });
-
-
-//$("#Layer_2").css({"background": "url(images/background.svg)"});
-// $("#head").on("click", function () {
-//     $("#Layer_2").show();
-//     $("#Layer_2").css({"background": "url(images/background.svg)"});
-// })
-
-// $("#myElement").on("click", function() {
-//     $(this).css({"background": "url(images/background.jpg)"});
-//   });
-
-//$("selector").css({"background": "url(image)"});  
 
 
 
